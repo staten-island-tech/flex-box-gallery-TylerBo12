@@ -1,0 +1,60 @@
+*,html,body{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;  /* Normally 100% is 16px but 62.5% is 10px which we want. */
+}
+
+
+Body{
+
+text-align: center;
+font-size: 30px;
+background-color: aliceblue;
+
+}
+
+
+
+
+#MyTitle {
+
+    font-size: 8rem;
+    background-color:cornflowerblue;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50vw ;
+
+}
+
+
+
+.Container{
+
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.px-size{
+
+    font-size: 10px;
+}
+
+.rem-size{
+
+    font-size: 1rem;
+}
+
+.em-size{
+
+    font-size: 1em;
+}
+
+
+
