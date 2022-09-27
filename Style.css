@@ -1,75 +1,117 @@
-*,html,body{
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 62.5%;  /* Normally 100% is 16px but 62.5% is 10px which we want. */
+*,
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%; /* Normally 100% is 16px but 62.5% is 10px which we want. */
 }
 
-
-Body{
-
-text-align: center;
-font-size: 30px;
-background-color: aliceblue;
-
+Body {
+  text-align: center;
+  font-size: 3rem;
+  background-color: lightblue;
 }
-
-
-
 
 #MyTitle {
+  font-size: 8rem;
+  background-color: cornflowerblue;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: center;
+  border: 10px solid turquoise;
+  width: 50vw;
+}
 
-    font-size: 8rem;
-    background-color:cornflowerblue;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    border-radius: 5px;
-    padding: 5px;
-    justify-content: center;
-    border: 10px solid turquoise;
-    display: flex;
-    block-size: 10vh;
-    width: 50vw;
-    
+.Parent-1 {
 
+  font-size: 10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;  
+  flex: 20rem;
+  justify-content: space-between;
+  padding: 2rem;
+  border: 0.3rem;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+.Child-1 {
+  
+  border: solid blue 1rem;
+  height: 30rem ;
+  margin: 1rem;
+  width: 50rem;
+  
+  
+}
+.Child-2 {
+  
+  border: solid green 1rem;
+  height: 30rem;
+  margin: 1rem;
+}
+
+.Child-3 {
+  
+  border: solid yellow 1rem;
+  height: 30rem   ;
+  margin: 1rem;
+}
+
+.Parent-2 {
+
+  font-size: 10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;  
+  flex: 20rem;
+  justify-content: space-between;
+  padding: 2rem;
+  border: 0.3rem;
+  align-items: center;
+  text-align: center;
+  border: solid blue 1rem;
+  margin: 1rem;
+  
+  
+}
+
+.Parent-3 {
+
+  font-size: 10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;  
+  flex: 20rem;
+  justify-content: space-between;
+  padding: 2rem;
+  border: 0.3rem;
+  align-items: center;
+  text-align: center;
+  border: solid blue 1rem;
+  margin: 1rem;
+  
 }
 
 
 
-.Container{
 
-    font-size: 50px;
-    padding: 10px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 200px;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: brown;
-   
 
+.px-size {
+  font-size: 10px;
 }
 
-
-
-.px-size{
-
-    font-size: 10px;
+.rem-size {
+  font-size: 1rem; /* Uses the base font size of the project amnd scales to the device and size of the window*/
 }
 
-.rem-size{
-
-    font-size: 1rem;
+.em-size {
+  font-size: 1em; /* Uses the parent's fonts size and scales to the device and size of the window*/
 }
-
-.em-size{
-
-    font-size: 1em;
-}
-
-
-
