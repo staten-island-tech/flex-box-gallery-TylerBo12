@@ -31,7 +31,6 @@ Body {
   font-size: 10rem;
   padding: 1rem;
   display: flex;  
-  flex:  20rem;
   justify-content: space-between;
   padding: 2rem;
   border: 0.3rem;
@@ -44,6 +43,16 @@ Body {
 }
 
 
+.ability{
+  width: 20rem;
+  display: flex;
+  border-radius: 2rem;
+  flex: 0 0 32%;
+ 
+}
+
+
+
 .Child-1 {
   
   border: solid blue 1rem;
@@ -52,10 +61,6 @@ Body {
   width: 40rem;
   border-radius: 2rem;
 
-}
-
-.ability1{
-  width: 20rem;
 }
 
 
@@ -67,12 +72,6 @@ Body {
   width: 30rem;
   border-radius: 2rem;
 }
-
-.ability2{
-
-  width: 20rem;
-}
-
 
 
 .Child-3 {
