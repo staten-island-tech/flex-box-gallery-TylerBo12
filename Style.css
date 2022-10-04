@@ -31,17 +31,23 @@ Body {
 
   font-size: 10rem;
   padding: 1rem;
-  display: flex;  
+  display: flex;
   justify-content: space-evenly;
   padding: 2rem;
   border: 0.3rem;
   align-items: center;
   text-align: center;
-  background-color: transparent;
-  
-   
+  background-color: transparent; 
+  flex-wrap: wrap;
+ 
+
 }
 
+
+.Parent-1:hover{
+  transform: scale(1.5);
+  transition: all 0.3s;
+}
 
 .ability{
   height: 18rem;
@@ -49,8 +55,12 @@ Body {
   align-content: center;
   justify-content: center;
   align-items: center;
+  
+}
 
- 
+.animations:before{
+conten
+
 }
 
 
