@@ -45,8 +45,8 @@ Body {
 
 
 .Parent-1:hover{
-  transform: scale(1.5);
-  transition: all 0.3s;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .ability{
@@ -59,8 +59,8 @@ Body {
 }
 
 .animations:before{
-conten
-
+content: "\26C4 ";
+font-size: 30rem;
 }
 
 
@@ -75,6 +75,10 @@ conten
   background-color: aliceblue;
   box-shadow: 0 28px 38px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.22);
 
+}
+
+.Child-1,.Child-4,.Child-7:hover{
+  
 }
 
 
