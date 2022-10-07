@@ -25,11 +25,20 @@ Body {
   justify-content: center;
   border: 10px solid #1d2a51;
   width: 70vw;
+  transition: 0.3s;
 }
 
 #mytitle:hover{
   transform: rotatey(10deg);
+}
+
+h2{
   transition: 0.3s;
+}
+
+
+h2:hover{
+  font-weight: bolder;
 }
 
 .Parent-1 {
@@ -69,13 +78,13 @@ Body {
   border-radius: 2rem;
   background-color: aliceblue;
   box-shadow: 0 28px 38px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.22);
+  transition: all 0.4s;
   
 
 }
 
 .Child-1:hover,.Child-4:hover,.Child-7:hover{
   transform: rotate(5deg);
-  transition: all 0.4s;
   background-color: gold;
   
 }
@@ -91,11 +100,11 @@ Body {
   border-radius: 2rem;
   background-color: aliceblue;
   box-shadow: 0 28px 38px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.22);
+  transition: all 0.4s;
 }
 
 .Child-2:hover,.Child-5:hover,.Child-8:hover{
   transform: rotate(5deg);
-  transition: all 0.4s;
   background-color: gold;
   
 }
@@ -110,11 +119,11 @@ Body {
   width: 35rem;
   background-color: aliceblue ;
   box-shadow: 0 28px 38px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.22);
+  transition: all 0.4s;
 }
 
 .Child-3:hover,.Child-6:hover,.Child-9:hover{
   transform: rotate(5deg);
-  transition: all 0.4s;
   background-color: gold;
 
 }
@@ -123,11 +132,14 @@ Body {
   font-size: 6rem;
   border-radius: 1rem;
   box-shadow: 0 28px 38px rgba(0,0,0,0.30), 0 20px 20px rgba(0,0,0,0.22);
+  margin: 5rem;
+  background-color: #fb488a;
+  border: solid #fb488a;
+  transition: 0.3s;
 }
 
 .button:hover{
   transform: scale(1.1);
-  transition: 0.3s;
   transition-duration: 1s;
 }
 
