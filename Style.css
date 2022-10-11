@@ -15,40 +15,41 @@ Body {
 }
 
 #MyTitle {
-  font-size: 8rem;
-  background-color: #fb488a;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  justify-items: center;
   margin: auto;
-  padding: 5px;
-  justify-content: center;
-  border: 10px solid #1d2a51;
-  width: 80rem;
-  transition: 0.3s;
-  flex-wrap: wrap;
-  display: flex;
 }
 
-#mytitle:hover {
-  transform: rotatey(10deg);
+.TitleDiv:hover {
+  transform: rotatey(15deg);
+}
+
+.TitleDiv{
+  font-size: 7rem;
+  background-color: #fb488a;
+  padding: 0.5rem;
+  width: 75rem;
+  justify-content: center;
+  border: 1rem solid #1d2a51;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.3s;
 }
 
 .Parent-1 {
   font-size: 10rem;
   padding: 1rem;
-  display: flex;
-  justify-content: center;
   padding: 2rem;
   border: 0.3rem;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: transparent;
   flex-wrap: wrap;
-  
-  
-
 }
-
 
 .ability {
   height: 18rem;
@@ -139,48 +140,44 @@ Body {
 }
 
 @keyframes button {
-0% {
-   left: 3.5rem;
-   bottom: 5rem;
-   background-color: peachpuff;
-   border: solid peachpuff;
-}
-25% {
-  left: 100rem;
-   bottom: 5rem;
-   background-color: palegoldenrod;
-   border: solid palegoldenrod;
-}
-50% {
-  left: -50rem;
-   bottom: 4rem;
-   background-color: yellow;
-   border: solid yellow;
-}
-75% {
-  left: 5rem;
-   bottom: 5rem;
-   background-color: orange;
-   border: solid orange;
-}
-100% {
-  left: 3.5rem;
-   bottom: 5rem;
-   background-color: peachpuff;
-   border: solid peachpuff;
-}
-
-
-
+  0% {
+    left: 3.5rem;
+    bottom: 5rem;
+    background-color: peachpuff;
+    border: solid peachpuff;
+  }
+  25% {
+    left: 54rem;
+    bottom: 5rem;
+    background-color: palegoldenrod;
+    border: solid palegoldenrod;
+  }
+  50% {
+    left: -50rem;
+    bottom: 4rem;
+    background-color: yellow;
+    border: solid yellow;
+  }
+  75% {
+    left: 5rem;
+    bottom: 5rem;
+    background-color: orange;
+    border: solid orange;
+  }
+  100% {
+    left: 3.5rem;
+    bottom: 5rem;
+    background-color: peachpuff;
+    border: solid peachpuff;
+  }
 }
 
-@media screen and (max-width: 61rem){
-  #MyTitle{
-    font-size: 2.8rem;
+@media screen and (max-width: 37.4rem) {
+  #MyTitle {
+    width: 30rem;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-  } 
-
+  }
 }
