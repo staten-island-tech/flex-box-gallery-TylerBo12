@@ -172,7 +172,7 @@ Body {
   }
 }
 
-@media screen and (max-width: 37.4rem) {
+@media screen and (min-width: 32rem) and (max-width: 256rem){
   #MyTitle {
     width: 30rem;
     text-align: center;
@@ -181,3 +181,15 @@ Body {
     display: flex;
   }
 }
+
+@media screen and (min-width: 76.8rem) and (max-width:238.8rem){
+  #MyTitle {
+    width: 30rem;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+
+
