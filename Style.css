@@ -141,7 +141,7 @@ Body {
 
 @keyframes button {
   0% {
-    left: 3.5rem;
+    left: 2.8rem;
     bottom: 5rem;
     background-color: peachpuff;
     border: solid peachpuff;
@@ -165,31 +165,72 @@ Body {
     border: solid orange;
   }
   100% {
-    left: 3.5rem;
+    left: 2.8rem;
     bottom: 5rem;
     background-color: peachpuff;
     border: solid peachpuff;
   }
 }
 
-@media screen and (min-width: 32rem) and (max-width: 256rem){
+@media screen and (min-width: 32rem) and (max-width: 48rem){
   #MyTitle {
     width: 30rem;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
+  }
+
+  .Parent-1{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  
+}
+
+
+@media screen and (min-width: 48.1rem) and (max-width: 76.8rem){
+  #MyTitle {
+    width: 50rem;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .Parent-1{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
   }
 }
 
 @media screen and (min-width: 76.8rem) and (max-width:238.8rem){
   #MyTitle {
-    width: 30rem;
+    width: 70rem;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
   }
+
+  .Parent-1{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+
 }
+
 
 
